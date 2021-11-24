@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(192, 220, 198);
+}
+
+.First, .Second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.S1 {
+    background-color: rgb(127, 133, 117);;
+    flex: 1;
+    margin: 10px;
+    position: relative;
+}
+
+.small {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.S3 {
+    background-color: rgb(143, 151, 106);
+    height: 100px;
+    width: 500px;
+    margin: 10px;
+}
+.F1 {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: rgb(223, 119, 137);
+    height: 180px;
+    margin: 5px;
+}
